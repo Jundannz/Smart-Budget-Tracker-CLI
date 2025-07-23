@@ -22,7 +22,7 @@ double addExpense(double &expenseTotal, std::string expenseCategory){
     return expenseTotal =+ expense;
 }
 void todayTotal(double expenseTotal){
-    std::cout << expenseTotal << '\n';
+    std::cout << expenseTotal << "\n\n";
 }
 double weeklyReport(){
     return 0;
